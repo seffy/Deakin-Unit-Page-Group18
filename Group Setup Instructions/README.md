@@ -1,10 +1,20 @@
 # Setup Instructions
 
-### a. GitHub Account
+
+## Table of Contents
+- [Github Account](#github-account)
+- [Install Git](#install-git)
+- [Github Desktop](#github-desktop)
+- [Visual Studio Code](#visual-studio-code)
+
+--- 
+### GitHub Account
 - Go to [GitHub](https://www.github.com/)
 - Sign up or log in
 
-### b. Install Git
+--- 
+
+### Install Git
 
 ⚠️ **BEFORE YOU PROCEED:** Please note that, since the group is using both **Windows** and **Apple Silicon Macs**, some instructions may not apply to Intel-based Macs. If you are using an Intel-based Mac, please verify the appropriate / recommended steps for Intel-based Macs online..
  
@@ -63,15 +73,15 @@ You should see output like `git version 2.x.x`.
 - Avoid running terminal in **Rosetta** unless absolutely necessary.
 - Homebrew ensures you're using the ARM-native versions of packages.
 
-
-### c. Configure Git
+--- 
+###  Configure Git
 Replace with your details:
 ```bash
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR EMAIL"
 ```
-
-### d. Download GitHub Desktop (Optional but Highly Recommended)
+--- 
+### GitHub Desktop
 1. Go to: [https://desktop.github.com/](https://desktop.github.com/)
 2. Download GitHub Desktop
    - The site detects your OS automatically.
@@ -81,8 +91,8 @@ git config --global user.email "YOUR EMAIL"
    - **macOS**: Open the `.dmg` file and drag it to the Applications folder.
 4. Launch GitHub Desktop
    - Sign in with your GitHub account to get started.
-
-### e. Download Visual Studio Code (VS Code)
+--- 
+### Visual Studio Code
 
 1. Go to: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Download VS Code
