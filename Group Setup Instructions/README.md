@@ -124,7 +124,7 @@ git config --global user.email "YOUR EMAIL"
 
 ## 🔗 4. Forking and Cloning the Repository
 
-### 👤 TEAM LEADER Tasks: (1/3)
+### 👤 TEAM LEADER Tasks: (1/4)
 1. Go to: [https://github.com/seffy/Deakin-Unit-Page-Group18.git]
 2. Click **Fork** (creates a copy in your GitHub account)
 3. Go to **Settings > Collaborators**
@@ -146,7 +146,7 @@ open index.html
 
 ---
 
-## 🎨 5. UI DESIGNER Tasks (1/2)
+## 🎨 5. UI DESIGNER Tasks: (1/3)
 
 ### a. Create a new branch:
 ```bash
@@ -200,7 +200,7 @@ git push -u origin add-header
 
 ---
 
-## 💻 6. FRONT-END DEVELOPER Tasks (1/2)
+## 💻 6. FRONT-END DEVELOPER Tasks: (1/3)
 
 ### a. Create a new branch:
 ```bash
@@ -256,7 +256,7 @@ git push -u origin add-table
 
 ---
 
-## 🧑‍💼 7. TEAM LEADER Content and Link
+## 🧑‍💼 7. TEAM LEADER Tasks: (2/3)
 
 ### a. Create a new branch:
 ```bash
@@ -299,7 +299,7 @@ git push -u origin add-unit-content
 
 
 
-## 🎨 8. UI DESIGNER Tasks 2/2
+## 🎨 8. UI DESIGNER Tasks: (2/3)
 
 ### a. Pull any changes
 
@@ -319,7 +319,7 @@ git status
 git push
 ```
 
-## 💻 9. FRONT-END DEVELOPER Tasks (2/3)
+## 💻 9. FRONT-END DEVELOPER Tasks: (2/3)
 
 ### a. Switch to `main` branch:
 
@@ -345,7 +345,7 @@ git push
 
 
 
-## 👤 TEAM LEADER Tasks: (3/4)
+## 👤 9. TEAM LEADER Tasks: (3/4)
 
 ### a. Switch to `main` branch:
 
@@ -372,9 +372,9 @@ git push
 
 ---
 
-## Additional Tasks
+## 10. Additional Tasks
 
-## 🎨 UI DESIGNER Tasks (3/3)
+## 🎨 UI DESIGNER Tasks: (3/3)
 
 ###  Style it in `main.css`:
 ```css
@@ -384,7 +384,7 @@ div {
 }
 ```
 
-## 💻 FRONT-END DEVELOPER Tasks (3/3)
+## 💻 FRONT-END DEVELOPER Tasks: (3/3)
 
 ```css
 <tr>
