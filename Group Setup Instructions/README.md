@@ -124,7 +124,7 @@ git config --global user.email "YOUR EMAIL"
 
 ## 🔗 4. Forking and Cloning the Repository
 
-### TEAM LEADER Tasks: (DONE)
+### 👤 TEAM LEADER Tasks: (1/3)
 1. Go to: [https://github.com/seffy/Deakin-Unit-Page-Group18.git]
 2. Click **Fork** (creates a copy in your GitHub account)
 3. Go to **Settings > Collaborators**
@@ -146,7 +146,7 @@ open index.html
 
 ---
 
-## 🎨 5. UI DESIGNER Tasks
+## 🎨 5. UI DESIGNER Tasks (1/2)
 
 ### a. Create a new branch:
 ```bash
@@ -161,6 +161,11 @@ Insert this inside `<body>`:
 </div>
 ```
 
+Save and Open the index file to see the changes.
+```bash
+open index.html
+```
+
 ### c. Style it in `main.css`:
 ```css
 div {
@@ -168,6 +173,23 @@ div {
   text-align: right;
 }
 ```
+Save and Open the index file to see the changes.
+```bash
+open index.html
+```
+
+To view the changes that will be made use git's diff. You can get the changes of all files in the project or for a single file.
+
+```bash
+git diff
+```
+
+OR 
+
+```bash
+git diff index.html
+```
+
 
 ### d. Save and commit:
 ```bash
@@ -178,7 +200,7 @@ git push -u origin add-header
 
 ---
 
-## 💻 6. FRON-END DEVELOPER Tasks
+## 💻 6. FRONT-END DEVELOPER Tasks (1/2)
 
 ### a. Create a new branch:
 ```bash
@@ -207,6 +229,24 @@ th, td {
 tr:nth-child(odd) { background-color: #f2f2f2; }
 ```
 
+Save and Open the index file to see the changes.
+```bash
+open index.html
+```
+
+To view the changes that will be made use git's diff. You can get the changes of all files in the project or for a single file.
+
+```bash
+git diff
+```
+
+OR 
+
+```bash
+git diff index.html
+```
+
+
 ### d. Save and commit:
 ```bash
 git add .
@@ -216,7 +256,7 @@ git push -u origin add-table
 
 ---
 
-## 🧑‍💼 7. Team Leader Content and Link
+## 🧑‍💼 7. TEAM LEADER Content and Link
 
 ### a. Create a new branch:
 ```bash
@@ -226,9 +266,27 @@ git checkout -b add-unit-content
 ### b. Add paragraph and fee link to `index.html`:
 ```html
 <h3>Content</h3>
-<p>To be successful IT graduates...</p>
+<p>To be successful IT graduates need to understand the use of industry tools and practices, the ways these tools work and connect together, and the underlying professional, ethical, and teamwork knowledge and skills needed to put these into practice in a professional manner.</p>
 <a href="https://www.deakin.edu.au/students/enrolment-and-fees/fees">Current students</a>
 ```
+
+Save and Open the index file to see the changes.
+```bash
+open index.html
+```
+
+To view the changes that will be made use git's diff. You can get the changes of all files in the project or for a single file.
+
+```bash
+git diff
+```
+
+OR 
+
+```bash
+git diff index.html
+```
+
 
 ### c. Save and commit:
 ```bash
@@ -239,36 +297,114 @@ git push -u origin add-unit-content
 
 ---
 
-## 🔀 8. Merging Back to Main
 
-### For Each Member:
-1. Switch to `main` branch:
+
+## 🎨 8. UI DESIGNER Tasks 2/2
+
+### a. Pull any changes
+
+```bash
+git pull
+```
+
+### b. Now you can merge your branch into main. This will take all of your changes and apply them to the main branch.
+
+```bash
+git merge add-header
+```
+
+### c. Check Status and Push
+```bash
+git status
+git push
+```
+
+## 💻 9. FRONT-END DEVELOPER Tasks (2/3)
+
+### a. Switch to `main` branch:
+
 ```bash
 git checkout main
 git pull
 ```
 
-2. Merge your feature branch:
+### b. Merge your feature branch:
 ```bash
-git merge <your-branch-name>
+git merge add-table
 ```
 
-3. Push changes:
+### c. Save and Open the index file to see the changes.
+```bash
+open index.html
+```
+
+### d. Push changes:
 ```bash
 git push
 ```
 
+
+
+## 👤 TEAM LEADER Tasks: (3/4)
+
+### a. Switch to `main` branch:
+
+```bash
+git checkout main
+git pull
+```
+
+### b. Merge your feature branch:
+```bash
+git merge add-unit-content
+```
+
+### c. Save and Open the index file to see the changes.
+```bash
+open index.html
+```
+
+### d. Push changes:
+```bash
+git push
+```
+
+
 ---
 
-## 🔁 9. Final Personal Edits
+## Additional Tasks
 
-- **UI Designer**: Change header color to `blue` in CSS.
-- **Front-End Developer**: Add a row for "Scheduled Learning Activities".
-- **Team Leader**: Add a new section for "Hurdle Requirement".
+## 🎨 UI DESIGNER Tasks (3/3)
 
----
+###  Style it in `main.css`:
+```css
+div {
+  background-color: darkcyan;
+  text-align: right;
+}
+```
 
-## ✅ 10. Submission
+## 💻 FRONT-END DEVELOPER Tasks (3/3)
+
+```css
+<tr>
+   <td> Scheduled Learning Activities:</td>
+   <td> 1 x 3 hour active class per week, weekly drop in support.</td>
+</tr>
+```
+
+## 👤 TEAM LEADER Tasks: (4/4)
+
+### Add Hurdle requirement (before Current Students link )
+
+```bash
+<h3>Hurdle requirement</h3>
+<p>
+To be eligible to obtain a pass in this unit, students must meet certain milestones as part of the portfolio.
+</p>
+```
+
+## ✅ Submission
 
 Submit the following on OnTrack:
 - Screenshot: GitHub > Insights > Contributors
