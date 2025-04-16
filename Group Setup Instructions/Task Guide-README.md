@@ -202,19 +202,27 @@ git push -u origin add-unit-content
 
 ## 🎨 8. UI DESIGNER Tasks: (2/3)
 
-### a. Pull any changes
+### a. Checkout
+
+```bash
+git checkout main
+```
+
+
+
+### b. Pull any changes
 
 ```bash
 git pull
 ```
 
-### b. Now you can merge your branch into main. This will take all of your changes and apply them to the main branch.
+### c. Now you can merge your branch into main. This will take all of your changes and apply them to the main branch.
 
 ```bash
 git merge add-header
 ```
 
-### c. Check Status and Push
+### d. Check Status and Push
 ```bash
 git status
 git push
