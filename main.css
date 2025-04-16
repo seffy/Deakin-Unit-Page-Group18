@@ -22,9 +22,12 @@ th, td {
   font-family: Arial
  } 
  tr:nth-child(odd) {background-color: #f2f2f2;}
+<<<<<<< HEAD
 div {
   background-color: blue;
   text-align: right;
  }
  
+=======
+>>>>>>> ffa830ed9b70ef1fddb866ee36d8bc9f17e95139
 
