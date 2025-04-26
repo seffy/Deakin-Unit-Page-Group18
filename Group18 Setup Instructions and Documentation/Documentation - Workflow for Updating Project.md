@@ -6,6 +6,7 @@
 - Work on your own feature branch — avoid direct edits to main.
 - Commit often after meaningful changes (not after every minor edit).
 - Communicate issues early (don’t wait until something breaks).
+- Delete feature branch after it is fully merged into main (or develop branch).
 
 ---
 
@@ -97,6 +98,24 @@ git push origin main
 
 ---
 
+### 10. 📤 Delete feature branch
+Once your feature branch (e.g., add-footer) has been successfully merged into main, it’s good practice to delete the branch both locally and remotely to keep the project clean.
+
+```bash
+git branch -d add-footer
+```
+This deletes the local copy of the branch.
+(Note: -d means “delete if merged”. If it’s not merged yet, Git will stop you for safety.)
+
+
+🌐 Delete Remote Branch (on GitHub)
+```bash
+git branch -d add-footer
+```
+✅ This deletes the branch from the GitHub repository so it no longer shows under “branches.”
+
+
+
 ### 📋 Full Checklist Summary
 
 | Step | Command | Purpose |
@@ -112,4 +131,8 @@ git push origin main
 | Pull latest main again | `git pull origin main` | Stay updated |
 | Merge feature branch | `git merge add-footer` | Combine work |
 | Push updated main | `git push origin main` | Final upload |
+| Delete local branch | `git branch -d add-footer` | Delete local branch
+| Delete remote branch | `git branch -d add-footer` | Delete remote branch
+
+
 
