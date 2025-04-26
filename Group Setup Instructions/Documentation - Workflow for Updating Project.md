@@ -1,6 +1,19 @@
 # Workflow for Updating Project
 
+
+*IMPORTANT *
+- Pull main branch frequently before starting work.
+- Work on your own feature branch — avoid direct edits to main.
+- Commit often after meaningful changes (not after every minor edit).
+- Communicate issues early (don’t wait until something breaks).
+
+---
+
+
+
 ### 1. 📍 Check Which Branch You're On
+Before starting, make sure you’re on main
+
 ```bash
 git branch
 ```
@@ -46,6 +59,10 @@ git push -u origin add-footer
 ```
 ✅ Push and link the branch to GitHub.
 
+---
+* Notify the Team Leader to merge it after checking. *
+	•	Only Team Leader will merge branches into main.
+	•	Team Leader will handle merge conflicts if needed.
 ---
 
 ### 7. 🔄 Update Your Main Branch Again
