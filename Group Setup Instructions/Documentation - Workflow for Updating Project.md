@@ -61,8 +61,8 @@ git push -u origin add-footer
 
 ---
 * Notify the Team Leader to merge it after checking. *
-	•	Only Team Leader will merge branches into main.
-	•	Team Leader will handle merge conflicts if needed.
+- Only Team Leader will merge branches into main.
+- Team Leader will handle merge conflicts if needed.
 ---
 
 ### 7. 🔄 Update Your Main Branch Again
