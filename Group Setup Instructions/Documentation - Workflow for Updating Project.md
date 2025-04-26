@@ -1,6 +1,6 @@
 # Workflow for Updating Project
 
-## 1. 📍 Check Which Branch You're On
+### 1. 📍 Check Which Branch You're On
 ```bash
 git branch
 ```
@@ -8,7 +8,7 @@ git branch
 
 ---
 
-## 2. 🔄 Make Sure Your `main` Is Updated
+### 2. 🔄 Make Sure Your `main` Is Updated
 ```bash
 git checkout main
 git pull origin main
@@ -17,7 +17,7 @@ git pull origin main
 
 ---
 
-## 3. 🌱 Create a New Branch for Your Updates
+### 3. 🌱 Create a New Branch for Your Updates
 ```bash
 git checkout -b add-footer
 ```
@@ -25,13 +25,13 @@ git checkout -b add-footer
 
 ---
 
-## 4. 🛠️ Make Your Changes
+### 4. 🛠️ Make Your Changes
 - Edit HTML, CSS, JS files as needed.
 - Save your changes locally.
 
 ---
 
-## 5. 📥 Stage and Commit Your Changes
+### 5. 📥 Stage and Commit Your Changes
 ```bash
 git add .
 git commit -m "Update footer layout and styles"
@@ -40,7 +40,7 @@ git commit -m "Update footer layout and styles"
 
 ---
 
-## 6. 🚀 Push Your Branch to GitHub
+### 6. 🚀 Push Your Branch to GitHub
 ```bash
 git push -u origin add-footer
 ```
@@ -48,7 +48,7 @@ git push -u origin add-footer
 
 ---
 
-## 7. 🔄 Update Your Main Branch Again
+### 7. 🔄 Update Your Main Branch Again
 ```bash
 git checkout main
 git pull origin main
@@ -57,7 +57,7 @@ git pull origin main
 
 ---
 
-## 8. 🔀 Merge Your New Branch into Main
+### 8. 🔀 Merge Your New Branch into Main
 ```bash
 git merge add-footer
 ```
@@ -65,7 +65,14 @@ git merge add-footer
 
 ---
 
-## 9. 📤 Push the Updated Main Back to GitHub
+### 9. 📤 Push the Updated Main Back to GitHub
+
+```bash
+git push 
+```
+
+OR 
+
 ```bash
 git push origin main
 ```
@@ -73,7 +80,7 @@ git push origin main
 
 ---
 
-# 📋 Full Checklist Summary
+### 📋 Full Checklist Summary
 
 | Step | Command | Purpose |
 |:-----|:--------|:--------|
