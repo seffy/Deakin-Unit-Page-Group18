@@ -327,3 +327,12 @@ git log --pretty=format:"%h - %an - %ad - %s" --date=short > group_log.txt
 
 
 
+
+## Updating 
+
+
+
+
+
+
+
